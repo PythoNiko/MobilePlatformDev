@@ -1,0 +1,41 @@
+<resources>
+
+    <!--
+    FILE:   string.xml
+
+    NAME:   NICK CONNELL
+    ID:     S1623944
+
+    FILE RESPONSIBLE FOR HOLDING ALL STRING VALUES USED BY APPLICATION
+    -->
+
+    <!-- GENERAL INFORMATION -->
+    <string name="app_name">Traffic Scotland</string>
+
+    <!-- LAUNCHER ACTIVITY -->
+    <string name="welcomeMessage">Real time and future traffic information for Scotland</string>
+    <string name="instructions">Please use the buttons below to receive various real-time and future
+                                traffic and flooding information. You can also plan your
+                                trip to check there will be no disruption to any planned journeys.
+                                All information provided from official feeds by Traffic Scotland.
+                                </string>
+
+    <!-- BUTTONS -->
+    <string name="btnCurrentIncidents">Current Incidents</string>
+    <string name="btnRoadworks">Road Works</string>
+    <string name="btnPlannedRoadWorks">Planned Road Works</string>
+    <string name="btnFloodline">Floodline</string>
+    <string name="btnPlanTrip">Plan Your Trip</string>
+    <string name="title_activity_plan_your_journey">Map</string>
+
+    <!-- LABELS -->
+    <string name="lblNameSID">NICK CONNELL - S1623944</string>
+    <string name="lblCurrentIncidents">CURRENT INCIDENTS</string>
+    <string name="lblRoadWorks">ROADWORKS</string>
+    <string name="lblPlannedRoadWorks">PLANNED ROADWORKS</string>
+    <string name="lblFloodline">FLOODLINE</string>
+
+    <!-- SEARCH -->
+    <string name="searchHint">Search</string>
+</resources>
+

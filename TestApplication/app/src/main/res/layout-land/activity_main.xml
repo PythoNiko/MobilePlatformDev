@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nick.testapplication.MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="69dp">
+
+            <TextView
+                android:id="@+id/lblWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:text="@string/welcomeMessage"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/lblInstructions"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:text="@string/instructions"
+                android:textAlignment="center"
+                android:textColor="@color/headerBackground"
+                android:textSize="30px" />
+
+            <Button
+                android:id="@+id/btnCurrentIncidents"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="CurrentIncidents"
+                android:text="@string/btnCurrentIncidents" />
+
+            <Button
+                android:id="@+id/btnRoadWorks"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="RoadWorks"
+                android:text="@string/btnRoadworks" />
+
+            <Button
+                android:id="@+id/btnPlannedRoadWorks"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="PlannedRoadWorks"
+                android:text="@string/btnPlannedRoadWorks" />
+
+            <Button
+                android:id="@+id/btnFloodline"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="Floodline"
+                android:text="@string/btnFloodline" />
+
+            <Button
+                android:id="@+id/btnPlanYourTrip"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="PlanYourTJourney"
+                android:text="@string/btnPlanTrip" />
+
+            <TextView
+                android:id="@+id/lblNameSID"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/lblNameSID"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

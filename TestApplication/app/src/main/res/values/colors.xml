@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    FILE:   colours.xml
+
+    NAME:   NICK CONNELL
+    ID:     S1623944
+
+    FILE RESPONSIBLE FOR HOLDING ALL HEX-COLOUR VALUES USED BY APPLICATION
+    -->
+
+    <!-- PRIMARY LOGO COLOUR TAKEN FROM TRAFFIC SCOTLAND -->
+    <color name="colorPrimary">#363989</color>
+
+    <!-- SUB MENU BACKGROUND AND TEXT VALUES -->
+    <color name="headerBackground">#7391AC</color>
+    <color name="buttonBackground">#E3E4EA</color>
+
+    <!-- WARNINGS -->
+    <color name="LiveWarning">#BB2B25</color>
+    <color name="backgroundWarning">#F0EE75</color>
+
+    <!-- SEARCH ACCENT -->
+    <color name="colorAccent">#363989</color>
+
+    <!-- BASIC BLACK AND WHITE VALUES -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
+
