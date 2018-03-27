@@ -222,6 +222,7 @@ public class CurrentIncidents extends AppCompatActivity {
 
             progressDialog.dismiss();
             Log.i("infoClosingConnection", "Connection closed.");
+            // END OF CON
         }
     }
 
