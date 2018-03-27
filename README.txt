@@ -7,6 +7,7 @@ Please find attached my submission for the coursework of Mobile Platform Develop
 		of the document entitled Submission1, also incide the coursework folder
 	- I am also (hopefully) going to invite you to view the full repository on GitHub 
 		as a backup measure
+	- .apk file can also be found in root folder
 
 Regards,
 Nick Connell
